@@ -1,4 +1,4 @@
-# 🎉 README.md Cheat Sheet
+# 🎉 README.md Cheat Sheet (Phiên bản tiếng Việt)
 
 File này là mẫu **README.md** giúp bạn tạo file README đẹp mắt và dễ hiểu trên GitHub.
 
@@ -14,17 +14,19 @@ File này là mẫu **README.md** giúp bạn tạo file README đẹp mắt và
     - [🔸 Inline Code](#inline-code)
     - [🔹 Code block](#code-block)
     - [🔹 Code block có highlight](#code-block-có-highlight)
+  - [🎨 Định dạng inline (Inline styling)](#định-dạng-inline-inline-styling)
   - [🔗 Liên kết & 🖼️ Hình ảnh](#liên-kết--hình-ảnh)
   - [❝ Trích dẫn (Blockquote)](#trích-dẫn-blockquote)
   - [➖ Gạch ngang (Horizontal rule)](#gạch-ngang-horizontal-rule)
   - [📊 Bảng (Table)](#bảng-table)
+  - [🎬 Thêm video/GIF vào README](#thêm-videogif-vào-readme)
 - [💡 Mẹo (Tips)](#mẹo-tips)
 
 ---
 
 ## 🎯 Giới thiệu
 
-File `README.md` là nơi đầu tiên người khác nhìn thấy dự án của bạn. Viết README rõ ràng giúp người đọc hiểu nhanh mục đích, cách cài đặt và sử dụng dự án.
+README.md là nơi đầu tiên người khác nhìn thấy dự án. Viết README rõ ràng giúp người dùng hiểu nhanh mục đích, cách cài đặt và sử dụng.
 
 ---
 
@@ -45,12 +47,12 @@ Dùng dấu `#` để tạo tiêu đề, cấp độ từ 1 đến 6:
 
 ### 📜 Danh sách (Lists)
 
-- **Danh sách không thứ tự** (unordered):
+- **Không thứ tự** (unordered):
   ```markdown
   - Mục 1
   - Mục 2
   ```
-- **Danh sách có thứ tự** (ordered):
+- **Có thứ tự** (ordered):
   ```markdown
   1. Mục A
   2. Mục B
@@ -60,10 +62,10 @@ Dùng dấu `#` để tạo tiêu đề, cấp độ từ 1 đến 6:
 
 #### 🔸 Inline Code
 
-Dùng dấu `` ` `` cho đoạn code ngắn:
+Dùng dấu `` ` `` cho đoạn code ngắn trong dòng:
 
 ```markdown
-Sử dụng `git status` để kiểm tra thay đổi.
+Sử dụng `git status` để kiểm tra trạng thái.
 ```
 
 #### 🔹 Code block
@@ -78,12 +80,21 @@ echo "Hello, world!";
 
 #### 🔹 Code block có highlight
 
-Thêm tên ngôn ngữ sau backticks đầu:
+Thêm tên ngôn ngữ ngay sau backticks đầu:
 
 ```bash
 npm install
 php artisan serve
 ```
+
+### 🎨 Định dạng inline (Inline styling)
+
+- **Đậm**: `**Chữ đậm**` → **Chữ đậm**
+- *Nghiêng*: `*Chữ nghiêng*` → *Chữ nghiêng*
+- ~~Gạch ngang~~: `~~Gạch ngang~~` → ~~Gạch ngang~~
+- Phím bấm: `<kbd>ENTER</kbd>` → <kbd>ENTER</kbd>
+- Làm nổi bật dòng: `> Đây là dòng nổi bật` →  
+  > Đây là dòng nổi bật
 
 ### 🔗 Liên kết & 🖼️ Hình ảnh
 
@@ -115,13 +126,25 @@ Dùng ba dấu `-`, `_` hoặc `*`:
 | C     | D     |
 ```
 
+### 🎬 Thêm video/GIF vào README
+
+GitHub không hỗ trợ nhúng video trực tiếp, bạn có thể:
+
+1. Chuyển video thành GIF.
+2. Tải GIF lên repo (ví dụ thư mục `demo/`).
+3. Thêm vào README:
+
+```markdown
+![Demo GIF](demo/video-demo.gif)
+```
+
 ---
 
 ## 💡 Mẹo (Tips)
 
-- ✏️ Luôn viết rõ ràng, ngắn gọn.
-- 🎨 Sử dụng emoji để tăng tính trực quan.
-- 📚 Thêm ví dụ minh họa và ảnh chụp màn hình.
-- 🔍 Cập nhật thường xuyên khi có thay đổi lớn.
-- 📑 Sử dụng Table of Contents để điều hướng nhanh.
+- ✏️ Viết ngắn gọn, rõ ràng.
+- 🎨 Dùng emoji để tăng tính trực quan.
+- 📚 Thêm ảnh GIF/screenshot minh họa.
+- 🔍 Cập nhật README khi có thay đổi lớn.
+- 📑 Sử dụng mục lục để điều hướng nhanh.
 
