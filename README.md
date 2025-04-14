@@ -19,15 +19,19 @@ Một câu mô tả ngắn gọn về dự án.
 
 ## 📌 Giới Thiệu
 
-…
+Giới thiệu ngắn gọn mục đích, lý do và đối tượng người dùng.
 
 ## 🚀 Tính Năng
 
-- …
+- Tính năng A  
+- Tính năng B  
+- Tính năng C  
 
 ## 🛠️ Công Nghệ Sử Dụng
 
-- …
+- Ngôn ngữ / Framework  
+- Thư viện chính  
+- Công cụ  
 
 ## ⚙️ Cài Đặt
 
@@ -59,13 +63,19 @@ Chèn ảnh, GIF hoặc code mẫu để minh hoạ.
    npm run e2e
 
 ## 🤝 Đóng Góp
-Fork repo
+- Fork repo
 
-Tạo branch feature: git checkout -b feature/YourFeature
+- Tạo branch feature:
+   ```bash
+   git checkout -b feature/YourFeature
 
-Commit: git commit -m 'Add some feature'
+- Commit: 
+   ```bash
+   git commit -m 'Add some feature'
 
-Push: git push origin feature/YourFeature
+- Push:
+  ```
+  git push origin feature/YourFeature
 
 Tạo Pull Request
 
