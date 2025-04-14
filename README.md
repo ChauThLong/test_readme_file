@@ -77,7 +77,7 @@ Chèn ảnh, GIF hoặc code mẫu để minh hoạ.
   ```
   git push origin feature/YourFeature
 
-Tạo Pull Request
+- Tạo Pull Request
 
 ## 📄 Giấy Phép
 
