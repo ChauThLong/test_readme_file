@@ -1,89 +1,106 @@
-# Tên Dự Án
+# README.md Cheat Sheet
 
-Một câu mô tả ngắn gọn về dự án.
-
----
-
-## 📖 Mục Lục
-
-- [Giới Thiệu](#giới-thiệu)
-- [Tính Năng](#tính-năng)
-- [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
-- [Cài Đặt](#cài-đặt)
-- [Sử Dụng](#sử-dụng)
-- [Đóng Góp](#đóng-góp)
-- [Giấy Phép](#giấy-phép)
-- [Liên Hệ](#liên-hệ)
+File này là mẫu README.md và giải thích cách dùng các cú pháp Markdown cơ bản trên GitHub.
 
 ---
 
-## 📌 Giới Thiệu
+## 1. Headings
 
-Giới thiệu ngắn gọn mục đích, lý do và đối tượng người dùng.
+Sử dụng dấu `#` để tạo tiêu đề. Số lượng dấu `#` tương ứng với cấp độ tiêu đề (1–6).
 
-## 🚀 Tính Năng
+```markdown
+# Heading cấp 1
+## Heading cấp 2
+### Heading cấp 3
+#### Heading cấp 4
+##### Heading cấp 5
+###### Heading cấp 6
+```
 
-- Tính năng A  
-- Tính năng B  
-- Tính năng C  
+---
 
-## 🛠️ Công Nghệ Sử Dụng
+## 2. Inline Code
 
-- Ngôn ngữ / Framework  
-- Thư viện chính  
-- Công cụ  
+Dùng dấu `` ` `` để đánh dấu đoạn code ngắn trong dòng văn bản.
 
-## ⚙️ Cài Đặt
+``Use `git status` để xem thay đổi hiện tại.``
 
-1. Clone repo:
-   ```bash
-   git clone https://github.com/username/repo.git
-   ```
-2. Cài đặt dependencies:
-   ```bash
-   npm install   # hoặc composer install,...
-   ```
-3. Chạy ứng dụng:
-   ```bash
-   npm start     # hoặc php artisan serve,...
-   ```
+---
 
-## ⚙️ Cấu Hình
-Giải thích các file config, biến môi trường, port, v.v.
+## 3. Fenced Code Blocks
 
-## 📑 Ví Dụ
-Chèn ảnh, GIF hoặc code mẫu để minh hoạ.
+Dùng ba dấu backticks để tạo khối code, hỗ trợ nhiều dòng.
 
-✅ Kiểm Thử
-1. Chạy unit test:
-   ```bash
-   npm test
-2. Chạy E2E test:
-   ```bash
-   npm run e2e
+```markdown
+```
+function hello() {
+  console.log("Hello world");
+}
+```
+```
 
-## 🤝 Đóng Góp
-- Fork repo
+---
 
-- Tạo branch feature:
-   ```bash
-   git checkout -b feature/YourFeature
+## 4. Code Block với Syntax Highlight
 
-- Commit: 
-   ```bash
-   git commit -m 'Add some feature'
+Chỉ định ngôn ngữ ngay sau ba dấu backticks để kích hoạt highlighting.
 
-- Push:
-  ```
-  git push origin feature/YourFeature
+```bash
+npm install
+php artisan serve
+```
 
-- Tạo Pull Request
+---
 
-## 📄 Giấy Phép
+## 5. Lists
 
-Mô tả license (MIT, Apache, GPL, v.v.) hoặc chèn file LICENSE.
+- **Unordered list** (dấu `-`, `*` hoặc `+`):  
+  - Item 1  
+  - Item 2  
 
-## 📬 Liên Hệ
-- Tên:
-- Email: you@example.com  
-- GitHub: [ChauThLong](https://github.com/username)
+1. **Ordered list** (dấu `1.`, `2.`, ...):  
+   1. Item A  
+   2. Item B  
+
+---
+
+## 6. Links & Images
+
+- **Link**: `[Tên liên kết](https://example.com)`  
+- **Image**: `![Alt text](https://example.com/image.png)`  
+
+---
+
+## 7. Blockquotes
+
+Dùng dấu `>` để trích dẫn:
+
+```markdown
+> Đây là một blockquote.
+```
+
+---
+
+## 8. Horizontal Rule
+
+Dùng ba hoặc nhiều hơn dấu `-`, `_`, hoặc `*` trên một dòng:
+
+```markdown
+---
+```
+
+---
+
+## 9. Tables
+
+```markdown
+| Cột 1 | Cột 2 |
+|-------|-------|
+| A     | B     |
+| C     | D     |
+```
+
+---
+
+*Tham khảo thêm “Basic writing and formatting syntax” trên GitHub Docs.*
+
