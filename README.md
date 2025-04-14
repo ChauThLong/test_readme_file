@@ -1,6 +1,6 @@
 # 🎉 README.md Cheat Sheet
 
-File này là mẫu **README.md** giúp bạn tạo file README đẹp mắt và dễ hiểu trên GitHub. citeturn1view0
+File này là mẫu **README.md** giúp bạn tạo file README đẹp mắt và dễ hiểu trên GitHub.
 
 ---
 
